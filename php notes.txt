@@ -1,0 +1,55 @@
+** Module 1 - Introduction **
+
+PHP: server side programming language, means that PHP runs on a server
+
+-   client -> browser connects to the server-> address (PHP SERVER).
+
+
+** Module 2 -  Introduction to PHP ** 
+
+
+** - What is PHP?
+
+ - server side programming language, designed for web development, can used for general purpose programming.
+ - open source,  cross platform(runs on any OS), extensive build in libraries. 
+ -used to build dynamic web apps, server-side programming and command line scripting(deployer).
+
+
+** - where does the PHP fit in? 
+ 
+- client: a person, browse accecing server application PHP .
+- web server: PHP alone can't handle the request, so we need a web server (EX. NGINX, APACHE).
+- FASTCGI(fast common gateway interface): a protocol web server uses to communicate with external prorams(EX. PHP). 
+- FASTCGI Module:  if the code of the server is written using PHP, web server can't handle the PHP alone, so we need the FASTCGI, to pass the PHP code to PHP itself. 
+- PHPFPM(PHP FAST Cfastcgi process manager): manages processes (called worker processes)
+that can do something with PHP code, sends the code to the PHP interpreter and get the output.
+- PHP is interpreted language means that the PHP is not turned into binary, every time it interpreted.
+-PHP interpretaiton proccess:
+tokenizer: changing group of characters into tokens, tokens can be keywords ( { etc.. (breaking code int tokens).
+Parcer: apstract syntax tree : a tree representation of the code flow and what should happen. 
+compiler: generate opcode (runs PHP)
+Executer(zend engine): executes PHP code.
+OpCache: used cached Opcode if availible. ->
+Data: database
+files: filessystem
+extra functionalities: PHP extensions. 
+
+
+** 5 -Expression vs Statement:
+
+- Expression: always return a result
+ 
+- Statement: execute and control flow, can also be an expression tho. 
+- Expression is also a statement, but statement is not an expression. 
+
+
+** Module- Expressions, Control Structures**
+
+ 
+
+
+
+
+ 
+
+
