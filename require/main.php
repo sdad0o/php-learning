@@ -14,7 +14,7 @@
 // require_once 'config.php'; 
 // require_once("config.php");
 
-require("config.php");
+require("dbConnect.php");
 
 echo "database $dbHost:$dbName\n";
 

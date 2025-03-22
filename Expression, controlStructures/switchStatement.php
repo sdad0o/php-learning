@@ -6,18 +6,19 @@ switch ($size) {
     case "S":
     case "M":
         echo " small or Medium";
-        break;
+        break; //to stop the switch
     case "L":
         echo "Large";
         break;
     case "XL":
         echo "Extra Large";
         break;
+    // if ther aren't any case is true the default will run 
     default:
         echo "Unknown size";
         break;
 }
-/////////////
+//----- Another example ------
 $badAttempts = 2;
 
 switch ($badAttempts) {

@@ -1,6 +1,7 @@
 <?php
-
+// At least it run the body one time
 do {
+    //      pick random number from 1-6
     $dice = rand(1, 6);
     echo "You rolled a $dice\n";
     if (6 == $dice) {
