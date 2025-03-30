@@ -1,5 +1,11 @@
 <?php
 // CSRF
+if(!validateCsrfToken($_POST['csrfToken'] ?? null))
+{
+    addFlashMessage('error' , 'Sorry, please send the form again');
+    redirect('/contact');
+}
+
 $name = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
 $message = $_POST['message'] ?? '';
