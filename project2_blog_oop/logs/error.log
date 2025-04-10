@@ -12,3 +12,12 @@
 [2025-04-07 17:19:02] Error: ErrorException: Undefined variable $message in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 3
 [2025-04-07 17:55:51] Error: TypeError: PDOStatement::fetch(): Argument #2 ($cursorOrientation) must be of type int, string given in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\Database.php on line 57
 [2025-04-07 17:55:59] Error: TypeError: PDOStatement::fetch(): Argument #2 ($cursorOrientation) must be of type int, string given in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\Database.php on line 57
+[2025-04-09 12:31:00] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-09 12:32:08] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-09 12:37:58] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-09 12:37:59] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-09 12:41:02] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-09 12:42:52] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-09 12:45:14] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
+[2025-04-10 17:16:35] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: remember_tokens in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\Database.php on line 40
+[2025-04-10 17:17:30] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: remember_tokens in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\Database.php on line 40
