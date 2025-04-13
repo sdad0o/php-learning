@@ -1,10 +1,21 @@
 <?php
+
 /**
  * @var Core\Router $router
  */
-$router->add('GET','/','HomeController@index');
+
+use App\Middlewares\Auth;
+use App\Middlewares\View;
+use App\Middlewares\CSRF;
+
+$router->addGlobalMiddleware(View::class);
+$router->addGlobalMiddleware(CSRF::class);
+$router->addRouteMiddleware('auth', Auth::class);
+
+$router->add('GET', '/', 'HomeController@index');
 $router->add('GET', '/posts', 'PostController@index');
 $router->add('GET', '/posts/{id}', 'PostController@show');
+$router->add('POST', '/posts/{id}/comments', 'CommentController@store', ['auth']);
 
 $router->add('GET', '/login', 'AuthController@create');
 $router->add('POST', '/login', 'AuthController@store');
