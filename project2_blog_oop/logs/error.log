@@ -21,3 +21,4 @@
 [2025-04-09 12:45:14] Error: Error: Call to undefined function partial() in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\app\Views\home\index.php on line 2
 [2025-04-10 17:16:35] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: remember_tokens in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\Database.php on line 40
 [2025-04-10 17:17:30] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: remember_tokens in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\Database.php on line 40
+[2025-04-14 13:36:32] Error: RuntimeException: Error: Template file not found : D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop/app/Views/admin/post/edit.php in D:\Apps\wamp\wamp\www\learn php\php-learning\project2_blog_oop\core\View.php on line 31
